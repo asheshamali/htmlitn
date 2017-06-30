@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Zilla Slab', serif;
+        }
+    </style>
+</head>
+<body>
+<form action="introduction.html" method="POST" enctype="multipart/form-data">
+    <p>
+        <label for="name">Name</label><br>
+        <input type="text" disabled value="Disabled" id="name" tabindex="1" required placeholder="Input you name"
+               minlength="10" size="50" maxlength="12">
+    </p>
+    <p>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" id="password" tabindex="3" required placeholder="Input your password" autofocus>
+    </p>
+
+    <p>
+        <label for="xyz">Email</label><br>
+        <input type="email" tabindex="2" id="xyz" placeholder="example@gmail.com">
+    </p>
+    <p>
+        <label for="upload">Upload File</label><br>
+        <input type="file" multiple id="upload">
+    </p>
+    <p>
+        <input type="date">
+    </p>
+
+    <p>
+        <input type="color">
+    </p>
+
+    <p>
+        <input type="number" min="1" max="10" placeholder="Input from 1 to 10">
+    </p>
+
+    <p>
+        <input type="search">
+    </p>
+
+    <select name="" id="">
+        <option value="" disabled selected>--Select Something--</option>
+        <optgroup label="First">
+            <option value="">One</option>
+            <option value="">Two</option>
+        </optgroup>
+        <optgroup label="Second">
+            <option value="" selected disabled>Three</option>
+            <option value="">Four</option>
+        </optgroup>
+    </select>
+
+    <p>
+        <input type="submit">
+    </p>
+</form>
+
+
+</body>
+</html>
